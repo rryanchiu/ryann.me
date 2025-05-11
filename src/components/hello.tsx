@@ -4,7 +4,7 @@ const Hello = () => {
 
     const MySequence = [
         220,
-        'Hi👋👋, I\'m Ryan,\na Full-Stack Developer based in China.'
+        'Hi👋👋, I\'m Ryan,\na Full-Stack Developer.'
     ]
 
     return (
