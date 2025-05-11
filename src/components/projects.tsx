@@ -22,7 +22,7 @@ const Projects = () => {
                 </div>
                 {projects.map((item, index) => (
                     <div key={index}
-                         className={'justify-between rd-2 px-3 py-2 dark:bg-gray-50/10 dark:color-gray-1 flex color-gray-8 gap-4 cursor-pointer hover:bg-dark-2 hover:color-gray-1'}
+                         className={'justify-between rd-2 px-3 py-2 flex gap-4 cursor-pointer hover:bg-dark-2 hover:color-gray-1'}
                          onClick={() => {
                              window.open(item.url)
                          }}>
