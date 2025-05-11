@@ -12,7 +12,7 @@ const About = () => {
                 <span className="op-60 transition-opacity">ABOUT</span>
             </div>
             <div className="flex px-3 py-2 justify-between">
-                <span className=""> {about}</span>
+                <span className="text-sm leading-relaxed">{about}</span>
             </div>
 
         </div>

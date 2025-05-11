@@ -1,0 +1,55 @@
+::view-transition-old(root),
+::view-transition-new(root) {
+    animation-duration: 600ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+/* 亮色模式切换到暗色模式 */
+html.light::view-transition-old(root) {
+    animation-name: fade-out;
+}
+
+html.light::view-transition-new(root) {
+    animation-name: dark-expand;
+}
+
+/* 暗色模式切换到亮色模式 */
+html.dark::view-transition-old(root) {
+    animation-name: fade-out;
+}
+
+html.dark::view-transition-new(root) {
+    animation-name: light-expand;
+}
+
+@keyframes dark-expand {
+    from {
+        clip-path: circle(0% at var(--click-x) var(--click-y));
+        opacity: 0.99;
+    }
+    to {
+        clip-path: circle(150% at var(--click-x) var(--click-y));
+        opacity: 1;
+    }
+}
+
+@keyframes light-expand {
+    from {
+        clip-path: circle(0% at var(--click-x) var(--click-y));
+        opacity: 0.99;
+    }
+    to {
+        clip-path: circle(150% at var(--click-x) var(--click-y));
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.01; /* 避免完全透明 */
+    }
+}

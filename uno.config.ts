@@ -1,15 +1,13 @@
-import {defineConfig, presetAttributify, presetIcons, presetWind3} from 'unocss';
+import {presetWind3} from '@unocss/preset-wind3'
+import { defineConfig } from 'unocss'
 
 
 export default defineConfig({
     presets: [
         presetWind3({
-            dark: 'class'
+            dark: "class"
         }),
-        presetAttributify(),
-        presetIcons(),
     ],
-
     theme: {
         breakpoints: {
             xxs: '0px',
@@ -21,4 +19,5 @@ export default defineConfig({
             xxl: '1600px',
         },
     },
+    shortcuts: [{}]
 });
