@@ -2,7 +2,7 @@ const Projects = () => {
 
     const projects = [{
         name: 'Radiogram',
-        url: 'https://chatgpt.ryann.me/',
+        url: 'https://radiogram.ryann.me/',
     }, {
         name: 'Smart Dalton',
         url: 'https://chatgpt.ryann.me/',
