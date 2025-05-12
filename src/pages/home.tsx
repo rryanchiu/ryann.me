@@ -5,6 +5,7 @@ import Projects from "../components/projects.tsx";
 import Header from "../components/header.tsx";
 import Footer from "../components/footer.tsx";
 import About from "../components/about.tsx";
+import Roles from "../components/roles.tsx";
 
 const Home = () => {
 
@@ -15,6 +16,7 @@ const Home = () => {
                 <Avatar email='xiaoliang.q@outlook.com'/>
                 <Hello/>
             </div>
+            <Roles/>
             <SocialMedias/>
             <About/>
             <Projects/>
