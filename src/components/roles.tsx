@@ -4,7 +4,7 @@ const Roles = () => {
         {
             name: 'ly.com',
             role: 'Intermediate Software Engineer',
-            icon: 'public/icons/ly.ico',
+            icon: '/icons/ly.ico',
             location: 'Chengdu, Sichuan Province, China',
             startYear: '2021',
             endYear: '2024',
@@ -12,7 +12,7 @@ const Roles = () => {
         }, {
             name: 'Dmall',
             role: 'R&D Engineer',
-            icon: 'public/icons/dmall.png',
+            icon: '/icons/dmall.png',
             location: 'Chengdu, Sichuan Province, China',
             startYear: '2020',
             endYear: '2021',
@@ -20,7 +20,7 @@ const Roles = () => {
         }, {
             name: 'Zhihuiliu Education',
             role: 'Java Developer',
-            icon: 'public/icons/zhihuiliu.ico',
+            icon: '/icons/zhihuiliu.ico',
             location: 'Chengdu, Sichuan Province, China',
             startYear: '2019',
             endYear: '2019',
@@ -28,7 +28,7 @@ const Roles = () => {
         }, {
             name: 'Sisyphe Bookstore',
             role: 'Java Developer',
-            icon: 'public/icons/sisyphe.ico',
+            icon: '/icons/sisyphe.ico',
             location: 'Chongqing, China',
             startYear: '2016',
             endYear: '2019',
