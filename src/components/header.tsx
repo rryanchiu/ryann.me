@@ -10,10 +10,13 @@ const Header = () => {
         document.documentElement.style.setProperty("--click-x", x);
         document.documentElement.style.setProperty("--click-y", y);
 
-        // 动画 + 切换
-        document.startViewTransition(() => {
+        if (document.startViewTransition) {
+            document.startViewTransition(() => {
+                setTheme(theme === "dark" ? "light" : "dark");
+            });
+        } else {
             setTheme(theme === "dark" ? "light" : "dark");
-        });
+        }
     };
     return (
         <div className="h-10 justify-end flex gap-1 mb-2">
