@@ -9,9 +9,6 @@ const Projects = () => {
     }, {
         name: 'TinyURL',
         url: 'https://tinyurl.ryann.me/',
-    }, {
-        name: 'WordList',
-        url: 'https://wordlist.ryann.me/',
     }]
 
     return (
