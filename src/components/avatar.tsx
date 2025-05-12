@@ -1,8 +1,8 @@
 
-const Avatar = ({email, size = 80}: { email: string, size?: number }) => {
+const Avatar = ({size = 80}: {  size?: number }) => {
     // const hash = md5(email.trim().toLowerCase());
     // const url = `https://www.gravatar.com/avatar/${hash}?s=${size}&d=identicon`;
-
+    //
     return (
         <img
             src='avatar.jpeg'

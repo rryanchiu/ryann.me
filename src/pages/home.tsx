@@ -13,7 +13,7 @@ const Home = () => {
         <main className="px-6 py-[8vh] max-w-[76ch] m-auto dark:bg-dark dark:text-light">
             <Header/>
             <div className="flex items-start gap-6">
-                <Avatar email='xiaoliang.q@outlook.com'/>
+                <Avatar/>
                 <Hello/>
             </div>
             <Roles/>
