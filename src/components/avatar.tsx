@@ -5,7 +5,7 @@ const Avatar = ({size = 80}: {  size?: number }) => {
     //
     return (
         <img
-            src='avatar.jpeg'
+            src='avatar.jpg'
             alt="User Avatar"
             width={size}
             height={size}
