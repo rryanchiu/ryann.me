@@ -5,8 +5,8 @@ const Avatar = ({size = 80}: {  size?: number }) => {
     //
     return (
         <img
-            src='avatar.jpg'
-            alt="User Avatar"
+            src='avatar.jpeg'
+            alt="_"
             width={size}
             height={size}
             className="rounded-full"
