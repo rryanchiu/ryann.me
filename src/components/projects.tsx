@@ -1,8 +1,8 @@
 const Projects = () => {
 
     const projects = [{
-        name: 'Radiogram',
-        url: 'https://radiogram.ryann.me/',
+        name: 'Radiobear',
+        url: 'https://radiobear.ryann.me/',
     }, {
         name: 'Smart Dalton',
         url: 'https://chatgpt.ryann.me/',
