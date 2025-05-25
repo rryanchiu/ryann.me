@@ -13,7 +13,7 @@ const Roles = () => {
     const roles = [
         {
             name: 'ly.com',
-            role: 'Intermediate Software Engineer',
+            role: 'Mid-level Backend Engineer',
             icon: '/icons/ly.ico',
             location: 'Chengdu, Sichuan Province, China',
             startYear: '2021',
