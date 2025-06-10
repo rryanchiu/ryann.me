@@ -2,13 +2,13 @@ const Projects = () => {
 
     const projects = [{
         name: 'Radiobear',
-        url: 'https://radiobear.ryann.me/',
+        url: 'https://radiobear.iamryan.dev/',
     }, {
         name: 'Smart Dalton',
-        url: 'https://chatgpt.ryann.me/',
+        url: 'https://chatgpt.iamryan.dev/',
     }, {
         name: 'TinyURL',
-        url: 'https://tinyurl.ryann.me/',
+        url: 'https://tinyurl.iamryan.dev/',
     }]
 
     return (
