@@ -1,6 +1,9 @@
 const Projects = () => {
 
     const projects = [{
+        name: 'Hotel ReviewPilot',
+        url: 'https://chromewebstore.google.com/detail/negaknbaneebgdgpkchldkgggehpbfbm?utm_source=item-share-cb/',
+    },{
         name: 'Radiobear',
         url: 'https://radiobear.iamryan.dev/',
     }, {

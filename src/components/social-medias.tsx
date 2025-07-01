@@ -12,7 +12,7 @@ const SocialMedias = () => {
             class: 'hover:bg-dark-2 hover:color-gray-1'
         }, {
             text: '',
-            link: 'mailto:xiaoliang.q@outlook.com',
+            link: 'mailto:ryanchiu.dev@gmail.com',
             icon: 'ri-mail-line',
             class: 'hover:bg-dark-2 hover:color-gray-1'
         }
