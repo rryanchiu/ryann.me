@@ -7,7 +7,7 @@ const SocialMedias = () => {
             class: 'hover:bg-dark-2 hover:color-gray-1'
         }, {
             text: '',
-            link: 'https://www.linkedin.com/in/xiaoliangqiu/ ',
+            link: 'https://www.linkedin.com/in/ryanchiu-dev/ ',
             icon: 'ri-linkedin-box-fill',
             class: 'hover:bg-dark-2 hover:color-gray-1'
         }, {
